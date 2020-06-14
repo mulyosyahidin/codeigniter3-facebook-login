@@ -17,3 +17,5 @@ Repo ini berisi penggunaan Facebook Graph SDK v2.10 untuk authentikasi pengguna,
 4. Memeriksa apakah user sudah terdaftar atau belum
 - Jika sudah: set session login dan redirect ke dasbor
 - Jika belum: kembalikan ke halaman register dengan pesan "Belum terdaftar"
+
+Posting: https://jurnalmms.web.id/codeigniter/membuat-register-login-with-facebook-di-codeigniter-3/
