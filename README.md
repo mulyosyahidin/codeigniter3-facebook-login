@@ -11,9 +11,9 @@ Repo ini berisi penggunaan Facebook Graph SDK v2.10 untuk authentikasi pengguna,
 - Jika belum: masukkan data ke database, redirect ke halaman dasboard
 
 ## Alur Login
-- User klik link "Daftar dengan Facebook"
-- Menghubungkan dengan Facebook Graph
-- Mendapatkan data dari Facebook Graph (nama, email dan id user)
-- Memeriksa apakah user sudah terdaftar atau belum
--- Jika sudah: set session login dan redirect ke dasbor
--- Jika belum: kembalikan ke halaman register dengan pesan "Belum terdaftar"
+1. User klik link "Daftar dengan Facebook"
+2. Menghubungkan dengan Facebook Graph
+3. Mendapatkan data dari Facebook Graph (nama, email dan id user)
+4. Memeriksa apakah user sudah terdaftar atau belum
+- Jika sudah: set session login dan redirect ke dasbor
+- Jika belum: kembalikan ke halaman register dengan pesan "Belum terdaftar"
